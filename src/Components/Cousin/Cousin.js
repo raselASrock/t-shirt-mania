@@ -1,13 +1,13 @@
 import React from 'react';
 import Friend from '../Friend/Friend';
 
-const Cousin = ({house, ring}) => {
+const Cousin = ({house}) => {
     return (
         <div>
             <h2>My Cousine </h2>
             <p><small>House: {house}</small></p>
             <section>
-                <Friend ring = {ring}></Friend>
+                <Friend></Friend>
             </section>
         </div>
     );
