@@ -38,4 +38,24 @@ function App() {
 export default App;
 
 // steps 
+/* 
+01. practise
+{
+      path: '/',
+      element: <Main></Main>,
+      children: [
+        {
+          path: '/',
+          loader: () => fetch('tshirts.json'),
+          element: <Home></Home>
+        },
+        {
+          path: '/orders',
+          element: <Orders></Orders>
+        },
+        {
+          path: '/grandPa',
+          element: <GrandPa></GrandPa>
+
+*/
 
