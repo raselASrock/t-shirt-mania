@@ -36,14 +36,3 @@ function App() {
 }
 
 export default App;
-
-// steps 
-/* 
-01. practise
-{
-      path: '/',
-
-
-
-
-
