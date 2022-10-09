@@ -63,26 +63,6 @@ import Home from './Components/Home/Home';
 import Orders from './Components/Orders/Orders';
 import Main from './Layouts/Main';
 
-function App() {
-  const router = createBrowserRouter([
-    {
-      path: '/',
-      element: <Main></Main>,
-      children: [
-        {
-          path: '/',
-          loader: () => fetch('tshirts.json'),
-          element: <Home></Home>
-        },
-        {
-          path: '/orders',
-          element: <Orders></Orders>
-        },
-        {
-          path: '/grandPa',
-          element: <GrandPa></GrandPa>
 
 
-
-*/
 
