@@ -42,15 +42,7 @@ export default App;
 01. practise
 {
       path: '/',
-      element: <Main></Main>,
-      children: [
-        {
-          path: '/',
-          loader: () => fetch('tshirts.json'),
-          element: <Home></Home>
-        },
-        {
-          path: '/orders',
+
 
 
 
